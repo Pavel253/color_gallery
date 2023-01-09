@@ -7,16 +7,16 @@ document.addEventListener('keydown', (event) => {
     }
 })
 
-// function generateRangonColors() {
-//     const hexCodes = '0123456789ABCDEF'
-//     let color = ''
+function generateRangonColors() {
+    const hexCodes = '0123456789ABCDEF'
+    let color = ''
 
-//     for (let i = 0; i < 6; i++) {
-//         color += hexCodes[Math.floor(Math.random() * hexCodes.length)]
-//     }
+    for (let i = 0; i < 6; i++) {
+        color += hexCodes[Math.floor(Math.random() * hexCodes.length)]
+    }
 
-//     return '#' + color
-// }
+    return '#' + color
+}
 
 document.addEventListener('click', (event) => {
     const type = event.target.dataset.type
